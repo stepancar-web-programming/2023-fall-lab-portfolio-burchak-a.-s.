@@ -4,6 +4,7 @@ body {
   font-family: "Oswald", sans-serif;
   min-height: 100vh;
 }
+
 nav {
   background-color: #292929;
   padding: 10px 0;
@@ -27,6 +28,7 @@ nav ul li {
   padding: 10px 20px;
   position: relative;
 }
+
 nav ul li::before {
   content: "";
   position: absolute;

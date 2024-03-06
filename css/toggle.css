@@ -8,6 +8,7 @@
   cursor: pointer;
   font-size: 1.4rem;
 }
+
 .expanded-container {
   display: none;
   background-color: rgb(118, 156, 187);

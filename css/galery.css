@@ -16,6 +16,7 @@
   height: auto;
   border-radius: 5px;
 }
+
 .card-text {
   display: flex;
   justify-content: space-between;
