@@ -1,13 +1,13 @@
-var swiper = new Swiper('.mySwiper', {
+var swiper = new swiper('.mySwiper', {
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    clickable: true
   },
   breakpoints: {
     768: {
-      slidesPerView: 3,
-    },
-  },
+      slidesPerView: 3
+    }
+  }
 });
