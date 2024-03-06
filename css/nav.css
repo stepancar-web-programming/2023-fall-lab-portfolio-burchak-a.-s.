@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 0;
@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 nav ul li.active::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 0;
