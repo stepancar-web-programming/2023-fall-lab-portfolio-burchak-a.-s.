@@ -1,4 +1,5 @@
-var swiper = new swiper('.mySwiper', {
+// eslint-disable-next-line
+var swiper = new Swiper('.mySwiper', {
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
@@ -10,4 +11,4 @@ var swiper = new swiper('.mySwiper', {
       slidesPerView: 3
     }
   }
-});
+})

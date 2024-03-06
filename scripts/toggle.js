@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 function toggleContainer (id, arrow) {
   var container = document.getElementById(id)
   var arrowDown = arrow.querySelector('.arrow-down')
