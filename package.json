@@ -4,8 +4,26 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
+
   },
   "scripts": {
     "prettier-format": "prettier --write '**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc"
+  
+  },
+
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  
+  },
+
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "npm run format",
+      "git add"
+    ]
+  
   }
+  
 }
