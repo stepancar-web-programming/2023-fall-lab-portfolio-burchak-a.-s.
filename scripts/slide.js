@@ -4,11 +4,11 @@ var swiper = new Swiper('.mySwiper', {
   spaceBetween: 30,
   pagination: {
     el: '.swiper-pagination',
-    clickable: true
+    clickable: true,
   },
   breakpoints: {
     768: {
-      slidesPerView: 3
-    }
-  }
-})
+      slidesPerView: 3,
+    },
+  },
+});
