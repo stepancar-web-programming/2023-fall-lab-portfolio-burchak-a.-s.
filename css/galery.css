@@ -1,0 +1,30 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 1.5rem;
+  padding: 1rem;
+  border: 0.5rem solid white;
+  border-radius: 1rem;
+  background-color: rgb(221, 236, 248);
+}
+
+.card img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
